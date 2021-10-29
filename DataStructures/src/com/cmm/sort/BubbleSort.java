@@ -44,11 +44,10 @@ public class BubbleSort {
                     arr[j + 1] = temp;
                 }
             }
-//            System.out.println("第" + (i+1) + "趟");
-//            System.out.println(Arrays.toString(arr));
-            if (!flag){
+            if (!flag)
                 break;
-            }
+            System.out.println("第" + (i+1) + "趟");
+            System.out.println(Arrays.toString(arr));
         }
     }
 }
